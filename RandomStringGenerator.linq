@@ -31,7 +31,7 @@ class RandomStringGenerator
 	/// Creates an instance of the generator
 	/// </summary>
 	/// <param name="rules">The rules that the generator needs to follow when creating a string</param>
-	public RandomStringGenerator(IEnumerable<StringGenerationRule> rules)
+	public RandomStringGenerator(params StringGenerationRule[] rules)
 	{
 		var groupedRules = rules.GroupBy(a => a.StringPattern); // we group all the rules so that we can verify their validity
 
