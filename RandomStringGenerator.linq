@@ -1,24 +1,4 @@
-<Query Kind="Program">
-  <Reference>&lt;RuntimeDirectory&gt;\System.Web.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Configuration.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.DirectoryServices.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.EnterpriseServices.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Web.RegularExpressions.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Design.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Web.ApplicationServices.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.ComponentModel.DataAnnotations.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.DirectoryServices.Protocols.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Security.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.ServiceProcess.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Web.Services.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\Microsoft.Build.Utilities.v4.0.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\Microsoft.Build.Framework.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\Microsoft.Build.Tasks.v4.0.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Windows.Forms.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Runtime.Caching.dll</Reference>
-  <Namespace>System.Web.Security</Namespace>
-  <Namespace>System.Globalization</Namespace>
-</Query>
+<Query Kind="Program" />
 
 void Main()
 {
